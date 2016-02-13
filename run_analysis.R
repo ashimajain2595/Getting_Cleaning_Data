@@ -1,6 +1,6 @@
 filename <- "getdata_dataset.zip"
 
-# Download and unzip  dataset:
+# Download and unzip  dataset
 if (!file.exists(filename)){
   fileurl <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip "
   download.file(fileURL, filename)
